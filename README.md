@@ -1,7 +1,6 @@
 # Welcome to [Vaibhav Kumar Singh](https://www.linkedin.com/in/vaibhav-kumar-singh-1242a017/) profile! <a href="https://www.linkedin.com/in/vaibhav-kumar-singh-1242a017/"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></a>
 
-<a href="https://www.linkedin.com/in/vaibhav-kumar-singh-1242a017/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="aswin-barath" height="30" width="40" /></a>
-&nbsp;
+![Header](assets/header.png)
 
 ## Glad to see you here!
 
@@ -74,6 +73,10 @@ I’m especially interested in solving problems at the intersection of GIS, plat
     </tr>
 </table>
 
+----
+
+[![Yue's github stats](https://github-readme-stats.vercel.app/api?username=Vaibhavjba&theme=material-palenight&count_private=true&hide=contribs)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Vaibhavjba&theme=material-palenight&hide=Jupyter&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 ## 📕Latest Blog Posts
 
