@@ -22,8 +22,7 @@ I’m especially interested in solving problems at the intersection of GIS, plat
 - 💬 Ask me about ArcGIS Enterprise, ArcGIS Server, Enterprise Geodatabases, Utility Network, and GIS automation
 - 📍 My core interests are ArcGIS Enterprise, ArcGIS Server, Enterprise Geodatabases, Utility Network, and GIS platform engineering
 - 🌱 I'm currently learning:
-  - Data Structures and Algorithms on [LeetCode](https://leetcode.com/u/aswinb/)
-  - Tools and technologies from <a href="#"><img alt="React" src="https://img.shields.io/badge/React-20232a.svg?logo=react&logoColor=%2361DAFB"></a> ecosystem
+  - Kubernetes
 - 🌱 I’m currently expanding my public GitHub work around Kubernetes + GIS + ArcGIS APIs
 - 📬 How to reach me: [vaibhavjba@gmail.com](mailto:vaibhavjba@gmail.com)
 - 📝 [Resume](https://drive.google.com/file/d/1UT31Lzgh6prKkBPnIMqTDc1GqyFT6e4j/view?usp=sharing).
