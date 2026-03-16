@@ -1,0 +1,13 @@
+Features
+
+map display
+
+query by attribute
+
+layer filtering
+
+popup details
+
+service-driven data display
+
+environment-based config

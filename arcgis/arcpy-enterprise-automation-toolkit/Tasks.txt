@@ -1,0 +1,11 @@
+First deliverables
+
+Feature class inventory script
+
+Batch reprojection script
+
+Schema validation script
+
+Batch geocoding sample
+
+Map export automation example
