@@ -13,24 +13,24 @@ import logging
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
-from datetime import datetime
+from datetime import datetime as dt
 from pathlib import Path
 from typing import Iterable
 
 from arcgis.gis import GIS
-from arcgis.mapping import WebMap
-
+from arcgis.map import Map
+import sys
 # -----------------------------------------------------------------------------
 # Configuration
 # -----------------------------------------------------------------------------
 
-PORTAL_NAME = "************"
-CONTEXT = "*****"
-USERNAME = os.getenv("ARCGIS_USERNAME", "admin")
-PASSWORD = os.getenv("ARCGIS_PASSWORD", "password")
+PORTAL_NAME = "devems00543.esri.com"
+CONTEXT = "enhncd"
+USERNAME = os.getenv("ARCGIS_USERNAME", "administrator")
+PASSWORD = os.getenv("ARCGIS_PASSWORD", "esri.agp1")
 VERIFY_CERT = False
 
-FOLDER_PATH = Path.cwd() / "Uploads"
+FOLDER_PATH = Path(sys.path[0], "Uploads")
 MAX_WORKERS = min(8, (os.cpu_count() or 4))
 
 FOLDERS = {
@@ -70,12 +70,16 @@ class PublishStats:
 def connect_gis() -> GIS:
     """Create GIS connection."""
     url = f"https://{PORTAL_NAME}/{CONTEXT}"
-    return GIS(url=url, username=USERNAME, password=PASSWORD, verify_cert=VERIFY_CERT)
+    try:
+        return GIS(url=url, username=USERNAME, password=PASSWORD, verify_cert=VERIFY_CERT)
+    except Exception as exc:
+        logging.error(f"Failed to connect to GIS portal: {exc}")
+        raise
 
 
 def ensure_folders(gis: GIS) -> None:
     """Create required folders if they do not already exist."""
-    existing = {f["title"] for f in gis.users.me.folders}
+    existing = {f.name for f in gis.content.folders.list()}
     for folder in FOLDERS.values():
         if folder not in existing:
             gis.content.create_folder(folder)
@@ -155,18 +159,17 @@ def publish_feature_service(gis: GIS, file_path: Path, stats: PublishStats) -> N
     published.share(org=True)
     stats.feature_services += 1
 
-    webmap = WebMap()
-    webmap.add_layer(published)
-
-    webmap_item = webmap.save(
-        item_properties={
+    webmap = Map()
+    search_result = gis.content.search("title:" + published.title, item_type="Feature Service")
+    webmap.content.add(search_result)
+    
+    web_map_properties = {
             "title": f"Web Map - {published.title}",
             "snippet": f"Created using ArcGIS Python API for {published.title}",
             "tags": "ArcGIS Python API, WebMap",
             "type": "Web Map",
-        },
-        folder=FOLDERS["webmap"],
-    )
+    }
+    webmap_item = webmap.save(item_properties=web_map_properties)
     webmap_item.share(org=True)
     stats.web_maps += 1
     logging.info("Published feature service and web map: %s", file_path.stem)
@@ -237,7 +240,7 @@ def merge_stats(all_stats: Iterable[PublishStats]) -> PublishStats:
 # -----------------------------------------------------------------------------
 
 def main() -> None:
-    start = datetime.now()
+    start = dt.now()
     gis = connect_gis()
 
     ensure_folders(gis)
@@ -262,7 +265,7 @@ def main() -> None:
                 logging.exception("Unhandled error for %s: %s", file.name, exc)
 
     summary = merge_stats(results)
-    end = datetime.now()
+    end = dt.now()
 
     print("\n--- Publish Summary ---")
     print(f"Start Time                  : {start:%d %B, %Y, %H:%M:%S %p}")
