@@ -38,12 +38,39 @@ This script is useful for:
 - cleans up partially created items on failure
 - prints a summary at the end of execution
 
+## How to Run
+
+**Install dependency:**
+```bash
+pip install arcgis
+```
+
+**Set credentials via environment variables (recommended for CI):**
+```bash
+export ARCGIS_URL=https://mygis.example.com/portal
+export ARCGIS_USER=admin
+export ARCGIS_PASSWORD=secret
+```
+
+**Run the script:**
+```bash
+python publishing_directory.py
+```
+
+Place your source files (`.zip`, `.sd`, `.vtpk`, `.slpk`) in the `uploads/` folder before running. The script will iterate through them, publish each to your target ArcGIS Enterprise portal, create associated web maps or web scenes where applicable, and print a summary of what was published.
+
+**Sample uploads included:**
+- `uploads/Building_scenelayer.slpk` — scene layer package (publishes as a Scene Service + Web Scene)
+- `uploads/NZ_Jan.vtpk` — vector tile package (publishes as a Vector Tile Service)
+- `uploads/SG_NationalScenicAreas_1998.zip` — shapefile (publishes as a Hosted Feature Service + Web Map)
+
 ## Repository Structure
 
 ```text
-arcgis-bulk-publishing/
-│── README.md
-│── bulk_publish.py
-│── Uploads/
-│── logs/
-│── docs/
+publishing/
+├── README.md
+├── publishing_directory.py
+└── uploads/
+    ├── Building_scenelayer.slpk
+    ├── NZ_Jan.vtpk
+    └── SG_NationalScenicAreas_1998.zip
