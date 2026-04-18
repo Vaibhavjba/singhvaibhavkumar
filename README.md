@@ -86,12 +86,11 @@ I’m especially interested in solving problems at the intersection of GIS, plat
     </td>
     <td valign="top" style="padding-left:16px;">
       <strong><a href="https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-associate-kcna/" target="_blank">KCNA — Kubernetes and Cloud Native Associate</a></strong><br/>
-      Linux Foundation &nbsp;|&nbsp; 2025<br/>
+      Linux Foundation &nbsp;|&nbsp; 2026<br/>
       <em>Kubernetes architecture, containers, cloud-native ecosystem, observability, and application delivery.</em>
       <br/><br/>
-      <strong><a href="https://www.esri.com/training/catalog/5f64012e5704e85f645c1831/arcgis-enterprise-administration-expert-professional/" target="_blank">EAEP — ArcGIS Enterprise Administration Expert Professional</a></strong><br/>
+      <strong><a href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.esri.com/training/TrainingRecord/Certificate/vsingh@esri.com_esriinc/647f2a27a25335361f3964df/-60" target="_blank">Python Scripting for Geoprocessing Workflows</a></strong><br/>
       Esri &nbsp;|&nbsp; 2025<br/>
-      <em>Advanced ArcGIS Enterprise architecture, deployment, configuration, and troubleshooting.</em>
       <br/><br/>
       <strong><a href="https://www.esri.com/training/catalog/5f640131968b5a5f19d39c05/arcgis-enterprise-system-design-professional/" target="_blank">ESDP — ArcGIS Enterprise System Design Professional</a></strong><br/>
       Esri &nbsp;|&nbsp; 2025<br/>
