@@ -88,6 +88,7 @@ I’m especially interested in solving problems at the intersection of GIS, plat
       <strong><a href="https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-associate-kcna/" target="_blank">KCNA — Kubernetes and Cloud Native Associate</a></strong><br/>
       Linux Foundation &nbsp;|&nbsp; 2025<br/>
       <em>Kubernetes architecture, containers, cloud-native ecosystem, observability, and application delivery.</em>
+      &nbsp;<a href="https://www.credly.com/badges/165f38d0-90b9-45b6-aa29-6123a1a14146/linked_in_profile" target="_blank"><img src="https://img.shields.io/badge/Credential-View-blue?style=flat-square" alt="Credential"/></a>
     </td>
   </tr>
   <tr><td colspan="2" style="padding:4px 0;"></td></tr>
@@ -96,14 +97,6 @@ I’m especially interested in solving problems at the intersection of GIS, plat
       <img src="assets/esri_logo.jpeg" alt="Esri" width="100"/>
     </td>
     <td valign="top" style="padding-left:16px;">
-      <strong><a href="https://www.esri.com/training/catalog/5f64012e5704e85f645c1831/arcgis-enterprise-administration-expert-professional/" target="_blank">EAEP — ArcGIS Enterprise Administration Expert Professional</a></strong><br/>
-      Esri &nbsp;|&nbsp; 2025<br/>
-      <em>Advanced ArcGIS Enterprise architecture, deployment, configuration, and troubleshooting.</em>
-      <br/><br/>
-      <strong><a href="https://www.esri.com/training/catalog/5f640131968b5a5f19d39c05/arcgis-enterprise-system-design-professional/" target="_blank">ESDP — ArcGIS Enterprise System Design Professional</a></strong><br/>
-      Esri &nbsp;|&nbsp; 2025<br/>
-      <em>Enterprise GIS system design, capacity planning, high availability, and deployment patterns.</em>
-      <br/><br/>
       <strong><a href="https://www.esri.com/training/TrainingRecord/Certificate/vsingh@esri.com_esriinc/647f2a27a25335361f3964df/-60" target="_blank">Python Scripting for Geoprocessing Workflows</a></strong><br/>
       Esri<br/>
       <em>Automating geoprocessing tasks and spatial analysis workflows using Python and ArcPy.</em>
