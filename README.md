@@ -79,48 +79,23 @@ I’m especially interested in solving problems at the intersection of GIS, plat
 
 <table>
   <tr>
-    <td valign="top" width="120">
-      <a href="https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-associate-kcna/" target="_blank">
-        <img src="assets/kcna-kubernetes-and-cloud-native-associate.png" alt="KCNA Badge" width="100"/>
-      </a>
+    <td valign="middle" width="120">
+      <img src="assets/kcna-kubernetes-and-cloud-native-associate.png" alt="KCNA Badge" width="100"/>
     </td>
-    <td valign="top" style="padding-left:16px;">
-      <strong><a href="https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-associate-kcna/" target="_blank">KCNA — Kubernetes and Cloud Native Associate</a></strong><br/>
-      Linux Foundation &nbsp;|&nbsp; 2025<br/>
-      <em>Kubernetes architecture, containers, cloud-native ecosystem, observability, and application delivery.</em>
-      &nbsp;<a href="https://www.credly.com/badges/165f38d0-90b9-45b6-aa29-6123a1a14146/linked_in_profile" target="_blank"><img src="https://img.shields.io/badge/Credential-View-blue?style=flat-square" alt="Credential"/></a>
+    <td valign="middle" style="padding-left:16px;">
+      <strong>KCNA — Kubernetes and Cloud Native Associate</strong> &nbsp;|&nbsp; Linux Foundation &nbsp;|&nbsp; <a href="https://www.credly.com/badges/165f38d0-90b9-45b6-aa29-6123a1a14146/linked_in_profile" target="_blank">Credential</a>
     </td>
   </tr>
-  <tr><td colspan="2" style="padding:4px 0;"></td></tr>
   <tr>
-    <td valign="top" width="120">
+    <td valign="middle" width="120">
       <img src="assets/esri_logo.jpeg" alt="Esri" width="100"/>
     </td>
-    <td valign="top" style="padding-left:16px;">
-      <strong><a href="https://www.esri.com/training/TrainingRecord/Certificate/vsingh@esri.com_esriinc/647f2a27a25335361f3964df/-60" target="_blank">Python Scripting for Geoprocessing Workflows</a></strong><br/>
-      Esri<br/>
-      <em>Automating geoprocessing tasks and spatial analysis workflows using Python and ArcPy.</em>
-      &nbsp;<a href="https://www.esri.com/training/TrainingRecord/Certificate/vsingh@esri.com_esriinc/647f2a27a25335361f3964df/-60" target="_blank"><img src="https://img.shields.io/badge/Credential-View-blue?style=flat-square" alt="Credential"/></a>
-      <br/><br/>
-      <strong><a href="https://www.esri.com/training/TrainingRecord/Certificate/vai11072/5efc6e169e88287d93ef7ae2/-330" target="_blank">GIS Basics</a></strong><br/>
-      Esri<br/>
-      <em>Foundational GIS concepts, spatial data types, coordinate systems, and map analysis.</em>
-      &nbsp;<a href="https://www.esri.com/training/TrainingRecord/Certificate/vai11072/5efc6e169e88287d93ef7ae2/-330" target="_blank"><img src="https://img.shields.io/badge/Credential-View-blue?style=flat-square" alt="Credential"/></a>
-      <br/><br/>
-      <strong><a href="https://www.esri.com/training/TrainingRecord/Certificate/vai11072/5efc6cd713dd3d49b5898cbf/-330" target="_blank">ArcGIS Pro Basics</a></strong><br/>
-      Esri<br/>
-      <em>Core ArcGIS Pro workflows: project management, data visualization, editing, and analysis.</em>
-      &nbsp;<a href="https://www.esri.com/training/TrainingRecord/Certificate/vai11072/5efc6cd713dd3d49b5898cbf/-330" target="_blank"><img src="https://img.shields.io/badge/Credential-View-blue?style=flat-square" alt="Credential"/></a>
-      <br/><br/>
-      <strong><a href="https://www.esri.com/training/TrainingRecord/Certificate/s2gkvb2/5c21e7bade875630d7c78cd6/-330" target="_blank">Accessing Data in a Portal Using ArcGIS API for Python</a></strong><br/>
-      Esri<br/>
-      <em>Querying, managing, and publishing portal content programmatically using the ArcGIS Python API.</em>
-      &nbsp;<a href="https://www.esri.com/training/TrainingRecord/Certificate/s2gkvb2/5c21e7bade875630d7c78cd6/-330" target="_blank"><img src="https://img.shields.io/badge/Credential-View-blue?style=flat-square" alt="Credential"/></a>
-      <br/><br/>
-      <strong><a href="https://www.esri.com/training/TrainingRecord/Certificate/s2gkvb2/5c2c4164de875630d7caaa78/-330" target="_blank">Python Scripting for Map Automation</a></strong><br/>
-      Esri<br/>
-      <em>Automating map production, layout management, and cartographic workflows using Python and ArcPy.</em>
-      &nbsp;<a href="https://www.esri.com/training/TrainingRecord/Certificate/s2gkvb2/5c2c4164de875630d7caaa78/-330" target="_blank"><img src="https://img.shields.io/badge/Credential-View-blue?style=flat-square" alt="Credential"/></a>
+    <td valign="middle" style="padding-left:16px;">
+      <strong>Python Scripting for Geoprocessing Workflows</strong> &nbsp;|&nbsp; Esri &nbsp;|&nbsp; <a href="https://www.esri.com/training/TrainingRecord/Certificate/vsingh@esri.com_esriinc/647f2a27a25335361f3964df/-60" target="_blank">Credential</a><br/>
+      <strong>GIS Basics</strong> &nbsp;|&nbsp; Esri &nbsp;|&nbsp; <a href="https://www.esri.com/training/TrainingRecord/Certificate/vai11072/5efc6e169e88287d93ef7ae2/-330" target="_blank">Credential</a><br/>
+      <strong>ArcGIS Pro Basics</strong> &nbsp;|&nbsp; Esri &nbsp;|&nbsp; <a href="https://www.esri.com/training/TrainingRecord/Certificate/vai11072/5efc6cd713dd3d49b5898cbf/-330" target="_blank">Credential</a><br/>
+      <strong>Accessing Data in a Portal Using ArcGIS API for Python</strong> &nbsp;|&nbsp; Esri &nbsp;|&nbsp; <a href="https://www.esri.com/training/TrainingRecord/Certificate/s2gkvb2/5c21e7bade875630d7c78cd6/-330" target="_blank">Credential</a><br/>
+      <strong>Python Scripting for Map Automation</strong> &nbsp;|&nbsp; Esri &nbsp;|&nbsp; <a href="https://www.esri.com/training/TrainingRecord/Certificate/s2gkvb2/5c2c4164de875630d7caaa78/-330" target="_blank">Credential</a>
     </td>
   </tr>
 </table>
