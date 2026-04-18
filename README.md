@@ -80,7 +80,7 @@ I’m especially interested in solving problems at the intersection of GIS, plat
 <table>
   <tr>
     <td valign="top" width="120">
-      <a href="https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-associate-kcna/" target="_blank">
+      <a href="https://www.credly.com/badges/165f38d0-90b9-45b6-aa29-6123a1a14146/linked_in_profile" target="_blank">
         <img src="assets/kcna-kubernetes-and-cloud-native-associate.png" alt="KCNA Certificate" width="100"/>
       </a>
     </td>
